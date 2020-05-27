@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CC7ADC65-9D99-4F14-B8B8-02AF2D8066D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFUtilityApp.Modules.ModuleName.Tests", "WPFUtilityApp\Tests\WPFUtilityApp.Modules.ModuleName.Tests\WPFUtilityApp.Modules.ModuleName.Tests.csproj", "{12534AD4-5ED5-43DE-A790-26564E12314E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{9B063C7B-107F-4A63-922A-A83381BFCD6A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFUtilityApp.Modules.ModuleName", "WPFUtilityApp\Modules\WPFUtilityApp.Modules.ModuleName\WPFUtilityApp.Modules.ModuleName.csproj", "{A927AA58-3BB7-442A-95AD-3577063FAE8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E9DA482A-D7DB-4647-98DA-2A16A0851BE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFUtilityApp.Services", "WPFUtilityApp\Services\WPFUtilityApp.Services\WPFUtilityApp.Services.csproj", "{6962B1AA-1CE0-45DD-8990-F908E203D89A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFUtilityApp.Services.Interfaces", "WPFUtilityApp\Services\WPFUtilityApp.Services.Interfaces\WPFUtilityApp.Services.Interfaces.csproj", "{3B2BAD4C-8636-4611-86EC-C6B4B88C6F6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFUtilityApp", "WPFUtilityApp\WPFUtilityApp\WPFUtilityApp.csproj", "{67139B92-6AE3-4F05-ABBF-36A5393248BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFUtilityApp.Core", "WPFUtilityApp\WPFUtilityApp.Core\WPFUtilityApp.Core.csproj", "{3043CC9A-E247-43BF-8669-4B2EE22E45B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{490D7686-4BEC-41AE-99C1-43BFF858DA30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf.Utilities.Controls", "Wpf.Utilities.Controls\Wpf.Utilities.Controls.csproj", "{B2E238A3-B9AD-4CAA-9D4F-9F55D59E504D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12534AD4-5ED5-43DE-A790-26564E12314E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12534AD4-5ED5-43DE-A790-26564E12314E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12534AD4-5ED5-43DE-A790-26564E12314E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12534AD4-5ED5-43DE-A790-26564E12314E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A927AA58-3BB7-442A-95AD-3577063FAE8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A927AA58-3BB7-442A-95AD-3577063FAE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A927AA58-3BB7-442A-95AD-3577063FAE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A927AA58-3BB7-442A-95AD-3577063FAE8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6962B1AA-1CE0-45DD-8990-F908E203D89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6962B1AA-1CE0-45DD-8990-F908E203D89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6962B1AA-1CE0-45DD-8990-F908E203D89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6962B1AA-1CE0-45DD-8990-F908E203D89A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2BAD4C-8636-4611-86EC-C6B4B88C6F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2BAD4C-8636-4611-86EC-C6B4B88C6F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2BAD4C-8636-4611-86EC-C6B4B88C6F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2BAD4C-8636-4611-86EC-C6B4B88C6F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67139B92-6AE3-4F05-ABBF-36A5393248BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67139B92-6AE3-4F05-ABBF-36A5393248BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67139B92-6AE3-4F05-ABBF-36A5393248BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67139B92-6AE3-4F05-ABBF-36A5393248BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3043CC9A-E247-43BF-8669-4B2EE22E45B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3043CC9A-E247-43BF-8669-4B2EE22E45B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3043CC9A-E247-43BF-8669-4B2EE22E45B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3043CC9A-E247-43BF-8669-4B2EE22E45B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E238A3-B9AD-4CAA-9D4F-9F55D59E504D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E238A3-B9AD-4CAA-9D4F-9F55D59E504D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E238A3-B9AD-4CAA-9D4F-9F55D59E504D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E238A3-B9AD-4CAA-9D4F-9F55D59E504D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12534AD4-5ED5-43DE-A790-26564E12314E} = {CC7ADC65-9D99-4F14-B8B8-02AF2D8066D4}
+		{A927AA58-3BB7-442A-95AD-3577063FAE8A} = {9B063C7B-107F-4A63-922A-A83381BFCD6A}
+		{6962B1AA-1CE0-45DD-8990-F908E203D89A} = {E9DA482A-D7DB-4647-98DA-2A16A0851BE6}
+		{3B2BAD4C-8636-4611-86EC-C6B4B88C6F6E} = {E9DA482A-D7DB-4647-98DA-2A16A0851BE6}
+		{B2E238A3-B9AD-4CAA-9D4F-9F55D59E504D} = {490D7686-4BEC-41AE-99C1-43BFF858DA30}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF1D1938-C60D-463C-91BD-89B183ACC522}
+	EndGlobalSection
+EndGlobal
